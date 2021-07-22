@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+.contact{
+    margin-top: 8rem; 
+    
+
+    .contact_bg{
+        border-radius: 25px;
+        width: 700px;
+        height: 200px;
+        margin: auto;
+    }
+    .contact_text{
+        font-family: 'Poppins', sans-serif; 
+        color: $white;
+        text-align: center;
+        padding-top: 3rem;
+
+    }
+    .bt{
+        text-align: center;
+       button{
+        font-family: 'Poppins', sans-serif; 
+           color: $primary;
+           background-color: white;
+           border-radius: 20px;
+       }
+    }
+}
